@@ -17,16 +17,16 @@ This project aims to predict the dengue case count in Singapore by regions (Nort
 - Region map
   - Mapping between Singapores' town location and region (i.e. North, South, East, West)
 
-**if you are using this dataset, please cite this repository**
+**If you are using this dataset, please cite this repository**
 
 ## Project Report
 
-- The final project report describing the experimental results can be found [here](https://github.com/hozongsien/dengue-prediction/report/Project_report.pdf)
+- The final project report describing the experimental results can be found [here](https://github.com/hozongsien/dengue-prediction/blob/master/report/Project%20Report.pdf)
 
 ## Contributers
 
 - Ho Zong Sien
-- Ling Zhi Yu4
+- Ling Zhi Yu
 - Pang Jia Hao
 - Ong Ghim Hwee Claire
 - Estee Ng Jia Ying
