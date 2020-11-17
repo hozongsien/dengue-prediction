@@ -1,12 +1,37 @@
-# Dengue-Prediction
+# Dengue Prediction
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1FFfHaJ2j9jB7ksCHW1FPuTEiMX1ABv2b)
 
 ## Introducion
-This project is based on the [TensorFlow Time Series tutorial](https://www.tensorflow.org/tutorials/structured_data/time_series).
-The goals was to predict the dengue case count in Singapore by regions (North, South, East, West).
 
-## Model
-A simple LSTM model with a single layer is used with MSE as loss. 
+This project aims to predict the dengue case count in Singapore by regions (North, South, East, West).
 
-## Code
-- Weather data web scrapping in R
-- [RNN Model in Python](https://colab.research.google.com/drive/1FFfHaJ2j9jB7ksCHW1FPuTEiMX1ABv2b)
+## Data
+
+- Weather data
+  - Daily weather data by location from 1980 to 2020
+  - Web scraped using R from http://www.weather.gov.sg/climate-historical-daily
+- Dengue cases
+  - Weekly dengue case count by location from 2016 to 2018
+  - Collected by hand from screen captures from https://www.nea.gov.sg/dengue-zika/dengue/dengue-clusters
+- Region map
+  - Mapping between Singapores' town location and region (i.e. North, South, East, West)
+
+**if you are using this dataset, please cite this repository**
+
+## Project Report
+
+- The final project report describing the experimental results can be found [here](https://github.com/hozongsien/dengue-prediction/report/Project_report.pdf)
+
+## Contributers
+
+- Ho Zong Sien
+- Ling Zhi Yu4
+- Pang Jia Hao
+- Ong Ghim Hwee Claire
+- Estee Ng Jia Ying
+- Divyadarshini Thirugnanasambandan
+
+## Resources
+
+- [TensorFlow Time Series tutorial](https://www.tensorflow.org/tutorials/structured_data/time_series)
